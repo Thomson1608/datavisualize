@@ -42,7 +42,7 @@
     "node": "12.13.1"
   },
   "scripts": {
-    "homepage": "https://Thomson1608.github.io/datavisualize/",
+    "homepage": "https://Thomson1608.github.io/data-visualization/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
