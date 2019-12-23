@@ -15,6 +15,7 @@
     "country-iso-2-to-3": "^1.1.0",
     "country-iso-3-to-2": "^1.1.0",
     "d3": "^5.14.2",
+    "gh-pages": "^2.1.1",
     "immutable": "^4.0.0-rc.12",
     "lodash": "^4.17.15",
     "react": "^16.12.0",
@@ -41,7 +42,7 @@
     "node": "12.13.1"
   },
   "scripts": {
-    "homepage": "https://github.com/Thomson1608/datavisualize/",
+    "homepage": "https://Thomson1608.github.io/datavisualize/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
