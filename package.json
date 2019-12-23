@@ -1,0 +1,67 @@
+{
+  "name": "data-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@antv/data-set": "^0.10.2",
+    "@nivo/generators": "^0.59.0",
+    "@nivo/treemap": "^0.59.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^3.26.0",
+    "bizcharts": "^3.5.6",
+    "country-data": "^0.0.31",
+    "country-iso-2-to-3": "^1.1.0",
+    "country-iso-3-to-2": "^1.1.0",
+    "d3": "^5.14.2",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet-async": "^1.0.4",
+    "react-jvectormap": "^0.0.15",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "recharts": "^2.0.0-beta.1",
+    "redux": "^4.0.4",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "reduxsauce": "^1.1.1",
+    "seamless-immutable": "^7.1.4",
+    "styled-components": "^4.4.1",
+    "styled-minimal": "^0.9.0",
+    "worker-loader": "^2.0.0"
+  },
+  "engines": {
+    "yarn": "1.19.1",
+    "node": "10.16.3"
+  },
+  "scripts": {
+	"homepage": "https://github.com/Thomson1608/datavisualize/",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
